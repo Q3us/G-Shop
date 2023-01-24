@@ -1,5 +1,5 @@
 body{
-    background-image: url("/IMG/dark-tile.png");
+    background-image: url("./IMG/dark-tile.png");
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .header{
