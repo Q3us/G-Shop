@@ -1,0 +1,35 @@
+body{
+    background-image: url("/IMG/dark-tile.png");
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header{
+    flex-direction: row;
+    color: white;
+    border: 1px white;
+    background-color: rgba(0, 0, 0, 0.900);
+    width: 98.93vw;
+    height: 90px;
+    margin-top: -22px;
+    margin-left: -8px;
+    position: sticky;
+    top: -10px;
+}
+.name{
+    color: rgb(252, 227, 0);
+    text-decoration: none;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left: 10px;
+    position: absolute;
+}
+.elements{
+    margin-top: 40px;
+    font-size: 22px;
+    margin-left: 250px;
+    position: absolute;
+}
+.elements a{
+    color: white;
+    text-decoration: none;
+    margin-left: 150px;
+}

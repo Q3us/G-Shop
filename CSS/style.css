@@ -1,0 +1,238 @@
+body{
+    background-image: url("/IMG/dark-tile.png");
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header{
+    flex-direction: row;
+    color: white;
+    border: 1px white;
+    background-color: rgba(0, 0, 0, 0.900);
+    width: 98.93vw;
+    height: 90px;
+    margin-top: -22px;
+    margin-left: -8px;
+    position: sticky;
+    top: -10px;
+}
+.name{
+    color: rgb(252, 227, 0);
+    text-decoration: none;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left: 10px;
+    position: absolute;
+}
+.elements{
+    margin-top: 40px;
+    font-size: 22px;
+    margin-left: 250px;
+    position: absolute;
+}
+.elements a{
+    color: white;
+    text-decoration: none;
+    margin-left: 150px;
+}
+.title{
+    margin-left: 150px;
+    margin-top: 150px;
+}
+.title h1{
+    font-size: 60px;
+    color: rgb(252, 227, 0);
+    margin-top: 100px;
+}
+.title h2{
+    color: rgba(255, 255, 255, 0.89);
+    margin-left: 230px;
+    margin-top: -95px;
+    font-size: 40px;
+    width: 650px;
+}
+.how{
+    font-size: 25px;
+    color: white;
+    border: 1px white;
+    background-image: url("/IMG/block__bg.jpg");
+    border-radius: 25px;
+    width: 500px;
+    height: 475px;
+    position: absolute;
+    margin-left: 900px;
+    z-index: -1;
+}
+.how h2{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.how li{
+    margin-left: 25px;
+    width: 350px;
+    word-spacing: 2px;
+}
+.gems{
+    margin-top: 250px;
+}
+.title__gems{
+    color: white;
+    font-size: 30px;
+    width: 750px;
+    margin-left: 75px;
+    margin-top: 400px;
+}
+.prices{
+    font-style: italic;
+    color: white;
+    justify-content: space-around;
+    display: flex;
+}
+.prices img{
+    margin-top: 0px;
+    margin-left: 100px;
+    width: 15vw;
+    height: 25vh;
+}
+.prices h3{
+    color: rgb(0, 150, 0);
+    margin-top: 100px;
+    margin-left: 150px;
+    font-size: 40px;
+}
+.bsprice{
+    margin-top: 8px;
+    margin-left: 250px;
+    color: rgba(255, 255, 255, 0.614);
+    text-decoration: line-through;
+}
+.bsmyprice{
+    color: rgb(0, 150, 0);
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 175px;
+}
+.st2 h3{
+    color: gold;
+}
+.st2 img{
+    margin-top: -40px;
+    width: 250px;
+    height: 250px;
+    width: 15vw;
+    height: 35vh;
+}
+.stprice{
+    margin-top: -10px;
+    margin-left: 250px;
+    color: rgba(255, 255, 255, 0.614);
+    text-decoration: line-through;
+}
+.stmyprice{
+    color: gold;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 175px;
+}
+.cod img{
+    width: 15vw;
+    height: 25vh;
+}
+.codprice{
+    margin-top: -10px;
+    margin-left: 250px;
+    color: rgba(255, 255, 255, 0.614);
+    text-decoration: line-through;
+    width: 15vw;
+    height: 25vh;
+}
+.codmyprice{
+    color: red;
+    font-size: 25px;
+    margin-top: -140px;
+    margin-left: 175px;
+}
+.cod h3{
+    color: red;
+}
+@media (max-width: 1024px){
+    .header{
+        width: 100vw;
+    }
+    .elements{
+        margin-left: 100px;
+    }
+    .title h1{
+        display: none;
+    }
+    .title h2{
+        display: none;
+    }
+    .how{
+        margin-left: 150px;
+    }
+    .title__gems{
+        margin-top: 700px;
+        margin-left: 150px;
+    }
+    .prices{
+        margin-left: -50px;
+    }
+    .codmyprice{
+        font-size: 30px;
+    }
+    .stmyprice{
+        font-size: 30px;
+    }
+    .bsmyprice{
+        font-size: 30px;
+    }
+}
+@media (max-width: 768px){
+    .header{
+        width: 100vw;
+    }
+    .elements{
+        font-size: 25px;
+    }
+    .elements a{
+        margin-left: 80px;
+    }
+    .title__gems{
+        margin-left: 10px;
+    }
+    .prices h3{
+        font-size: 25px;
+    }
+    .prices img{
+        width: 175px;
+        height: 150px;
+        margin-right: 0px;
+        margin-left: 120px;
+    }
+    .st2 img{
+        width: 175px;
+        height: 200px;
+    }
+    .cod img{
+        width: 150px;
+    }
+    .how{
+        margin-left: 130px;
+    }
+    .title__gems{
+        font-size: 25px;
+    }
+    .bsmyprice{
+        width: auto;
+        margin-top: 10px;
+        margin-left: 120px;
+    }
+    .codmyprice{
+        margin-top: -220px;
+    }
+    .codprice{
+        width: 80px;
+    }
+    .prices{
+        margin-right: 70px;
+    }
+}
