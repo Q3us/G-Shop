@@ -1,5 +1,5 @@
 body{
-    background-image: url("./IMG/dark-tile.png");
+    background-image: url("../IMG/dark-tile.png");
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .header{
@@ -53,7 +53,7 @@ body{
     font-size: 25px;
     color: white;
     border: 1px white;
-    background-image: url("/IMG/block__bg.jpg");
+    background-image: url("../IMG/block__bg.jpg");
     border-radius: 25px;
     width: 500px;
     height: 475px;
@@ -89,8 +89,6 @@ body{
 .prices img{
     margin-top: 0px;
     margin-left: 100px;
-    width: 15vw;
-    height: 25vh;
 }
 .prices h3{
     color: rgb(0, 150, 0);
@@ -117,8 +115,6 @@ body{
     margin-top: -40px;
     width: 250px;
     height: 250px;
-    width: 15vw;
-    height: 35vh;
 }
 .stprice{
     margin-top: -10px;
@@ -133,8 +129,7 @@ body{
     margin-left: 175px;
 }
 .cod img{
-    width: 15vw;
-    height: 25vh;
+    height: 200px;
 }
 .codprice{
     margin-top: -10px;
@@ -184,6 +179,30 @@ body{
     }
     .bsmyprice{
         font-size: 30px;
+    }
+    .prices img{
+        width: 200px;
+        height: 150px;
+    }
+    .st2 img{
+        height: 225px;
+        width: 225px;
+    }
+    .cod img{
+        height: 150px;
+        width: 150px;
+    }
+    .stmyprice{
+        margin-top: 10px;
+    }
+    .codprice{
+        margin-top: 10px
+    }
+    .stprice{
+        margin-top: -25px;
+    }
+    .codmyprice{
+        margin-top: -190px;
     }
 }
 @media (max-width: 768px){
