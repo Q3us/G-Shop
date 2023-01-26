@@ -85,6 +85,7 @@ body{
     color: white;
     justify-content: space-around;
     display: flex;
+    position: absolute;
 }
 .prices img{
     margin-top: 0px;
@@ -204,6 +205,9 @@ body{
     .codmyprice{
         margin-top: -190px;
     }
+    .how{
+        margin-left: 25vw;
+    }
 }
 @media (max-width: 768px){
     .header{
@@ -235,7 +239,7 @@ body{
         width: 150px;
     }
     .how{
-        margin-left: 130px;
+        margin-left: 15vw;
     }
     .title__gems{
         font-size: 25px;
@@ -253,5 +257,55 @@ body{
     }
     .prices{
         margin-right: 70px;
+        font-size: 10px;
+    }
+    .title__gems{
+        font-size: 20px;
+        width: auto;
+    }
+    .prices{
+        display: none;
+    }
+    .title__gems{
+        margin-top: -150px;
+    }
+    .how{
+        margin-top: 100px;
+    }
+}
+@media (max-width:702px){
+    .name{
+        font-size: 30px;
+        margin-top: 25px;
+    }
+    .elements{
+        font-size: 20px;
+        margin-top: 35px;
+        margin-left: 120px;
+    }
+    .elements a{
+        margin-left: 50px;
+    }
+    .header{
+        height: 75px;
+    }
+}
+@media (max-width:450px){
+    .name{
+        font-size: 25px;
+    }
+    .header{
+        height: 70px;
+    }
+    .elements{
+        font-size: 16px;
+        margin-left: 100px;
+    }
+    .elements a{
+        margin-left: 20px;
+    }
+    .how{
+        width: 400px;
+        margin-left: 10px;
     }
 }
