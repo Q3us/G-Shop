@@ -22,6 +22,9 @@ body{
     margin-left: 10px;
     position: absolute;
 }
+.name:hover{
+    text-shadow: 1px 1px 10px gold;
+}
 .elements{
     margin-top: 40px;
     font-size: 22px;
@@ -32,6 +35,13 @@ body{
     color: white;
     text-decoration: none;
     margin-left: 150px;
+}
+.elements a:hover{
+    text-shadow: 1px 1px 10px white;
+}
+.elements a:active{
+    text-shadow: 1px 1px 15px gold;
+    color: gold;
 }
 .prices{
     color: white;

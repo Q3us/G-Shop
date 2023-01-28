@@ -13,6 +13,7 @@ body{
     margin-left: -8px;
     position: sticky;
     top: -10px;
+    user-select: none;
 }
 .name{
     color: rgb(252, 227, 0);
@@ -21,6 +22,9 @@ body{
     margin-top: 30px;
     margin-left: 10px;
     position: absolute;
+}
+.name:hover{
+    text-shadow: 1px 1px 10px gold;
 }
 .elements{
     margin-top: 40px;
@@ -33,9 +37,26 @@ body{
     text-decoration: none;
     margin-left: 150px;
 }
+.elements a:hover{
+    text-shadow: 1px 1px 10px white;
+}
+.elements a:active{
+    text-shadow: 1px 1px 15px gold;
+    color: gold;
+}
+.tg{
+    text-align: right;
+    margin-top: 10px;
+    z-index: -1;
+}
+.tg img{
+    width: 50px;
+    height: 50px;
+}
 .title{
     margin-left: 150px;
     margin-top: 150px;
+    user-select: none;
 }
 .title h1{
     font-size: 60px;
@@ -60,6 +81,10 @@ body{
     position: absolute;
     margin-left: 900px;
     z-index: -1;
+    user-select: none;
+}
+.how:hover{
+    box-shadow: 1px 1px 50px rgba(255, 255, 255, 0.316);
 }
 .how h2{
     margin-top: 10px;
@@ -157,10 +182,15 @@ body{
         margin-left: 100px;
     }
     .title h1{
-        display: none;
+        margin-left: -100px;
+        width: auto;
     }
     .title h2{
-        display: none;
+        margin-left: 120px;
+        width: auto;
+    }
+    .title{
+        width: auto;
     }
     .how{
         margin-left: 150px;
@@ -207,6 +237,14 @@ body{
     }
     .how{
         margin-left: 25vw;
+    }
+}
+@media (max-width: 870px){
+    .elements{
+        margin-left: 50px;
+    }
+    .elements a{
+        margin-left: 120px;
     }
 }
 @media (max-width: 768px){
@@ -288,6 +326,30 @@ body{
     }
     .header{
         height: 75px;
+    }
+    .title h1{
+        font-size: 45px;
+        margin-left: -120px;
+    }
+    .title h2{
+        margin-top: -70px;
+        font-size: 25px;
+        margin-left: 50px;
+    }
+    .how{
+        margin-left: 50px;
+    }
+}
+@media (max-width: 600px){
+    .elements a{
+        font-size: 18px;
+        margin-left: 20px;
+    }
+    .elements{
+        margin-left: 150px;
+    }
+    .how{
+        margin-left: 5px;
     }
 }
 @media (max-width:450px){
