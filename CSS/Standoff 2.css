@@ -1,5 +1,6 @@
 body{
-    background-image: url("../IMG/dark-tile.png");
+    user-select: none;
+    background-image: url("../IMG/bg_st2__1608px.png");
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .header{
@@ -43,36 +44,25 @@ body{
     text-shadow: 1px 1px 15px gold;
     color: gold;
 }
-.prices{
-    color: white;
-    margin: 50px;
-    border: 1px white;
-    border-radius: 25px;
-    width: 900px;
-    height: 450px;
-    background: rgba(255, 255, 255, 0.663);
-    box-shadow: 1px 1px 15px white;
-    animation-name: flash;
-    animation-duration: 3s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-@keyframes flash{
-
-    0% {
-        box-shadow: 1px 1px 10px white;
-    }
-
-    100% {
-        box-shadow: 1px 1px 30px white;
-    }
-
-}
-.prices h1{
+.price__item h1{
     color: gold;
 }
-.prices__items{
+.price__item h3{
+    color: grey;
+    text-decoration: line-through;
+    margin-left: 100px;
+}
+.price__item img{
+    width: 200px;
+    height: 200px
+}
+.price__item h2{
+    color: gold;
+    margin-left: 50px;
+}
+.prices{
+    margin-top: 150px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-direction: row;
 }
