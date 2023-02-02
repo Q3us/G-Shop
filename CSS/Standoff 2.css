@@ -6,7 +6,7 @@ body{
 .header{
     flex-direction: row;
     color: white;
-    border: 1px white;
+    border: 1px rgb(9, 217, 78);
     background-color: rgba(0, 0, 0, 0.900);
     width: 98.93vw;
     height: 90px;
@@ -65,4 +65,9 @@ body{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+}
+@media (max-width: 1050px){
+    body{
+        background-image: url('../IMG/bg_st2__1024px.png');
+    }
 }

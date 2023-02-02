@@ -79,7 +79,7 @@ body{
     width: 500px;
     height: 475px;
     position: absolute;
-    margin-left: 900px;
+    margin-left: 20vw;
     z-index: -1;
     user-select: none;
 }
@@ -352,6 +352,17 @@ body{
         margin-left: 5px;
     }
 }
+@media (max-width: 550px){
+    .how ul {
+        font-size: 22px;
+    }
+    .how li{
+        width: 300px;
+    }
+    .how{
+        width: 450px;
+    }
+}
 @media (max-width:450px){
     .name{
         font-size: 25px;
@@ -360,14 +371,20 @@ body{
         height: 70px;
     }
     .elements{
-        font-size: 16px;
         margin-left: 100px;
+        margin-top: 30px;
     }
     .elements a{
-        margin-left: 20px;
+        font-size: 14px;
+    }
+    .elements a{
+        margin-left: 10px;
     }
     .how{
-        width: 400px;
+        width: 90vw;
         margin-left: 10px;
+    }
+    .how li{
+        width: 250px;
     }
 }
