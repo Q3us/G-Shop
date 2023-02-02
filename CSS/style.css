@@ -79,7 +79,7 @@ body{
     width: 500px;
     height: 475px;
     position: absolute;
-    margin-left: 20vw;
+    margin-left: 55vw;
     z-index: -1;
     user-select: none;
 }
@@ -386,5 +386,28 @@ body{
     }
     .how li{
         width: 250px;
+    }
+}
+@media (max-width: 336px){
+    .header{
+        height: 55px;
+    }
+    .name{
+        margin-top: 20px;
+    }
+    .elements a{
+        margin-left: 5px;
+    }
+    .elements{
+        margin-left: 90px;
+        margin-top: 25px;
+    }
+    .title h1{
+        font-size: 35px;
+    }
+    .title h2{
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: -55px;
     }
 }

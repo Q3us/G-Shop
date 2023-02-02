@@ -68,6 +68,15 @@ body{
 }
 @media (max-width: 1050px){
     body{
-        background-image: url('../IMG/bg_st2__1024px.png');
+        background-image: url('../IMG/dark-tile.png');
+    }
+    .elements{
+        margin-left: 50px;
+    }
+    .elements a{
+        margin-left: 100px;
+    }
+    .prices{
+        flex-wrap: wrap;
     }
 }
