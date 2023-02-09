@@ -363,22 +363,29 @@ body{
         width: 450px;
     }
 }
+@media (max-width: 480px){
+    .name{
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    .header{
+        height: 60px;
+    }
+    .elements{
+        margin-left: 120px;
+        margin-top: 25px;
+    }
+    .elements a{
+        font-size: 14px;
+        margin-left: 10px;
+    }
+}
 @media (max-width:450px){
     .name{
         font-size: 25px;
     }
     .header{
         height: 70px;
-    }
-    .elements{
-        margin-left: 100px;
-        margin-top: 30px;
-    }
-    .elements a{
-        font-size: 14px;
-    }
-    .elements a{
-        margin-left: 10px;
     }
     .how{
         width: 90vw;
@@ -409,5 +416,8 @@ body{
         font-size: 20px;
         margin-left: 10px;
         margin-top: -55px;
+    }
+    .how{
+        display: none;
     }
 }
